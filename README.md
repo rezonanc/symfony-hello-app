@@ -15,5 +15,5 @@ Please see [Docker based symfony development environment repository](https://git
 ### 1st week
 
 - [x] Create project skeleton
-- [ ] Add route with a simple hello world response
-- [ ] Provide project wide functional tests
+- [x] Add route with a simple hello world response
+- [x] Provide project wide functional tests
