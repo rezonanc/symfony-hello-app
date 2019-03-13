@@ -35,6 +35,15 @@
     "doctrine/reflection": {
         "version": "v1.0.0"
     },
+    "ea/hello-bundle": {
+        "version": "0.1",
+        "recipe": {
+            "repo": "github.com/rezonanc/symfony-flex-repo",
+            "branch": "master",
+            "version": "0.1",
+            "ref": "f465044018ad26b7ecc0a99bd0de1465e7f43a6f"
+        }
+    },
     "psr/cache": {
         "version": "1.0.1"
     },

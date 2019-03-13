@@ -20,7 +20,7 @@ Please see [Docker based symfony development environment repository](https://git
 
 ### 2nd week
 
-- [ ] Create new bundle in a form of composer package
-- [ ] Try to use [Symfony flex](https://symfony.com/doc/current/setup/flex.html) for bundle updates
-- [ ] New bundle must override default route with custom new content
-- [ ] New project functional test must verify bundle integration
+- [x] Create new bundle in a form of composer package
+- [x] Try to use [Symfony flex](https://symfony.com/doc/current/setup/flex.html) for bundle updates
+- [x] New bundle must override default route with custom new content
+- [x] New project functional test must verify bundle integration

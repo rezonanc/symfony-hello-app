@@ -3,4 +3,5 @@
 return [
     Symfony\Bundle\FrameworkBundle\FrameworkBundle::class => ['all' => true],
     Sensio\Bundle\FrameworkExtraBundle\SensioFrameworkExtraBundle::class => ['all' => true],
+    EA\HelloBundle\EAHelloBundle::class => ['all' => true],
 ];

@@ -1,0 +1,24 @@
+{
+    "name": "ea/hello-bundle",
+    "description": "Simple bundle to change controller",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "version": "v0.1.0",
+    "authors": [
+        {
+            "name": "Edvinas Aleksejonokas",
+            "email": "rezonanc@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/http-foundation": "^4.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "EA\\HelloBundle\\": ""
+        }
+    },
+    "require-dev": {
+        "symfony/phpunit-bridge": "^4.2"
+    }
+}

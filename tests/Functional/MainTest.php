@@ -23,4 +23,13 @@ class MainTest extends WebTestCase
 
         $this->assertContains("Hello", $client->getResponse()->getContent());
     }
+
+    public function testMainRouteBundleIntegration()
+    {
+        $client = static::createClient();
+
+        $client->request('GET', '/');
+
+        $this->assertContains("from Bundle", $client->getResponse()->getContent());
+    }    
 }

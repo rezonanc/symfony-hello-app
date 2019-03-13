@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8249d8511c765485ee9589000f4c3e41",
+    "content-hash": "7b6cc5ed305e747a2fe3a58801acd490",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -648,6 +648,37 @@
                 "reflection"
             ],
             "time": "2018-06-14T14:45:07+00:00"
+        },
+        {
+            "name": "ea/hello-bundle",
+            "version": "v0.1.0",
+            "dist": {
+                "type": "path",
+                "url": "packages/hello-bundle",
+                "reference": "c8bd0c15348480c5daeb3460c3d992ab61d92247"
+            },
+            "require": {
+                "symfony/http-foundation": "^4.2"
+            },
+            "require-dev": {
+                "symfony/phpunit-bridge": "^4.2"
+            },
+            "type": "symfony-bundle",
+            "autoload": {
+                "psr-4": {
+                    "EA\\HelloBundle\\": ""
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Edvinas Aleksejonokas",
+                    "email": "rezonanc@gmail.com"
+                }
+            ],
+            "description": "Simple bundle to change controller"
         },
         {
             "name": "psr/cache",
