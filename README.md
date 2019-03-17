@@ -24,3 +24,10 @@ Please see [Docker based symfony development environment repository](https://git
 - [x] Try to use [Symfony flex](https://symfony.com/doc/current/setup/flex.html) for bundle updates
 - [x] New bundle must override default route with custom new content
 - [x] New project functional test must verify bundle integration
+
+### 3rd week
+
+- [ ] Integrate doctrine
+- [ ] Add an entity to use with doctrine
+- [ ] Provide data fixture for tests
+- [ ] Adjust controllers to be able to apply CRUD operations for created entity
