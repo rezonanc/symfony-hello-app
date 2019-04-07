@@ -27,7 +27,7 @@ Please see [Docker based symfony development environment repository](https://git
 
 ### 3rd week
 
-- [ ] Integrate doctrine
+- [x] Integrate doctrine
 - [ ] Add an entity to use with doctrine
 - [ ] Provide data fixture for tests
 - [ ] Adjust controllers to be able to apply CRUD operations for created entity
