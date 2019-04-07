@@ -31,3 +31,7 @@ Please see [Docker based symfony development environment repository](https://git
 - [x] Add an entity to use with doctrine
 - [x] Provide data fixture for tests
 - [ ] Adjust controllers to be able to apply CRUD operations for created entity
+  - [ ] Create
+  - [x] Read
+  - [ ] Update
+  - [ ] Delete
